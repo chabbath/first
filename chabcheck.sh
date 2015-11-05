@@ -18,7 +18,7 @@ if [ $1 == "-v" ]; then
 	echo "chabcheck v0.0.2";
 else
  if [ $1 == "-h" ]; then
-	echo "Frist paramater is a destination";
+	echo "Frist paramater is the destination directory";
 else 
 	f $1;
 fi
